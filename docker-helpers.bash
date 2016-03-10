@@ -110,7 +110,7 @@ dclearvolumes(){
 }
 
 dcmcreate(){
-     docker-machine create --driver virtualbox 
+     docker-machine create --driver virtualbox $1
 }
 
 
